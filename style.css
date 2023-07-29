@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:black
+
+}
+
+/* nav bar section */
+
+header{
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+header a{
+    padding: 10px;
+}
+
+nav a{
+    margin-left: 10px;
+    padding-right: 60px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 40px;
+    text-decoration: none;
+}
+
+button{
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:black;
+    color: #fff;
+    transition: 0.2s;
+}
+/* nav bar section ends */
+
+
+
+
+/* calculator section */
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: chocolate;
+    height: 90%;
+    width: 40%;
+    margin:auto;
+    margin-top: 10%;
+    border:8px solid white;
+    border-radius: 20px;
+
+}
+
+input{
+    margin-top: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    border-style:hidden;
+}
+#calbut{
+    background-color: azure;
+}
+#calbut:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+
+}
+/* calculator section ends */
+
